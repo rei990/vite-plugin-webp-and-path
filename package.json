@@ -1,0 +1,43 @@
+{
+	"name": "vite-plugin-webp-and-path",
+	"version": "0.1.0",
+	"description": "This Vite plugin automatically converts image files to WebP format and updates image paths in HTML and CSS files within your project.",
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"scripts": {
+		"build": "tsc",
+		"test": "jest"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/rei990/vite-plugin-webp-and-path.git"
+	},
+	"keywords": [
+		"vite",
+		"plugin",
+		"webp",
+		"imagemin",
+		"path"
+	],
+	"author": "rei990",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/rei990/vite-plugin-webp-and-path/issues"
+	},
+	"homepage": "https://github.com/rei990/vite-plugin-webp-and-path#readme",
+	"dependencies": {
+		"glob": "^7.1.7",
+		"imagemin": "^8.0.0",
+		"imagemin-webp": "^7.0.0",
+		"path": "^0.12.7",
+		"typescript": "^5.2.2"
+	},
+	"devDependencies": {
+		"@babel/preset-env": "^7.22.20",
+		"@types/glob": "^8.1.0",
+		"@types/imagemin": "^8.0.1",
+		"@types/imagemin-webp": "^7.0.1",
+		"babel-jest": "^29.7.0",
+		"jest": "^29.7.0"
+	}
+}
