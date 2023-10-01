@@ -1,9 +1,10 @@
 {
 	"name": "vite-plugin-webp-and-path",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "This Vite plugin automatically converts image files to WebP format and updates image paths in HTML and CSS files within your project.",
 	"main": "dist/index.js",
 	"types": "dist/index.d.ts",
+	"type": "module",
 	"scripts": {
 		"build": "tsc",
 		"test": "jest"
